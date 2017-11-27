@@ -818,6 +818,11 @@
           <version>3.3.0</version>
           <inherited>true</inherited>
           <extensions>true</extensions>
+          <configuration>
+            <instructions>
+              <_failok>true</_failok>
+            </instructions>
+          </configuration>
           <executions>
             <execution>
               <goals>
@@ -826,6 +831,13 @@
               <phase>process-classes</phase>
             </execution>
           </executions>
+          <dependencies>
+            <dependency>
+              <groupId>biz.aQute.bnd</groupId>
+              <artifactId>biz.aQute.bndlib</artifactId>
+              <version>3.5.0</version>
+            </dependency>
+          </dependencies>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
