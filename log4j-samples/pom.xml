@@ -72,17 +72,17 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.12</version>
+        <version>4.11</version>
         <scope>test</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
   <modules>
-    <module>log4j-samples-flume-common</module>
-    <module>log4j-samples-flume-remote</module>
-    <module>log4j-samples-flume-embedded</module>
-    <module>log4j-samples-configuration</module>
-    <module>log4j-samples-loggerProperties</module>
+    <module>flume-common</module>
+    <module>flume-remote</module>
+    <module>flume-embedded</module>
+    <module>configuration</module>
+    <module>loggerProperties</module>
   </modules>
   <build>
     <plugins>
